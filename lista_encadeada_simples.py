@@ -110,12 +110,3 @@ class listaSimples:
         toc = time.perf_counter()
         som = toc - tic
         return som
-
-lista = listaSimples()
-lista.inserir_inicio(6)
-lista.inserir_inicio(7)
-lista.inserir_inicio(3)
-lista.inserir_inicio(8)
-lista.inserir_inicio(42)
-lista.inserir_inicio(84)
-print(lista.tempo_merge())
